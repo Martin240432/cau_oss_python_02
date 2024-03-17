@@ -1,6 +1,6 @@
 length = float(input("length : "))
 width = float(input("width : "))
-height = float(input("input : "))
+height = float(input("height : "))
 
 volume = length * width * height
 
