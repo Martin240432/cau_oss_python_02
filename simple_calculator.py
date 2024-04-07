@@ -40,8 +40,8 @@ while True:
         [num1 , num2 , ret] = arithmetic_ops(sub) # 정의된 함수 사용      sub
     elif op == "*":
         [num1 , num2 , ret] = arithmetic_ops(lambda x,y : x*y) # 익명함수(lambda) 사용       mul 
-        #왜 num1 num2 ret에 값 넣을때는 []넣든말든 상관없는데 lamda익명함수 쓸때는 []ㅏ왜 못씀??
-        #[]를 lamda에 묶어서 쓰면 오류걸려서 컴파일이 제대로 안됨
+        #왜 num1 num2 ret에 값 넣을때는 []넣든말든 상관없는데 lamda익명함수 쓸때는 []왜 못씀??
+        #[]를 lamda에 묶어서 쓰면 오류걸려서 컴파일 실행시 오류뜸
     elif op == "/":
         [num1 , num2 , ret] = arithmetic_ops(lambda x,y : x/y) # 익명함수(lambda) 사용       div
     elif op == "%":
