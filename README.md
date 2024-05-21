@@ -3,3 +3,6 @@
 
 # 2024-04-04
 Homework#2, simple calculator 구현
+
+# 2024-05-20
+Homework#r, module 수업 과제, 혼자 이상하게 생각하는거보다 질문하는게 백배 도움된다.
